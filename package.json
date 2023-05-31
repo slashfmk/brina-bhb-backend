@@ -1,7 +1,7 @@
 {
-  "name": "barbershop",
+  "name": "brinahb",
   "version": "1.0.0",
-  "description": "Barbershop application",
+  "description": "Hair beauty application",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/app.ts",
@@ -34,11 +34,11 @@
     "typescript": "^4.0.5"
   },
   "keywords": [
-    "barbershop",
+    "hair",
     "shave",
     "more"
   ],
-  "author": "Hassan Karar",
+  "author": "Yannick Fumukani",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.0.4"
