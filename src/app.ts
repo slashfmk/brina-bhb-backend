@@ -18,19 +18,11 @@ app.use(bodyParser.json());
 app.use(
   cors({
     // origin: `http://${SERVER_ADD}:9000`,
-    origin: "*",
+    origin: "https://brinahairbeauty.netlify.app",
     method: ["POST", "PUT", "DELETE", "GET", "PATCH"],
     credentials: true,
   })
 );
-
-// app.use((req,res,next)=>{
-//   res.setHeader('Access-Control-Allow-Origin','*');
-//   res.setHeader('Access-Control-Allow-Methods','GET,POST,PUT,PATCH,DELETE');
-//   //@ts-ignore
-//   res.setHeader('Access-Control-Allow-Methods','Content-Type','Authorization');
-//   next();
-// })
 
 const userRoute = require("./routes/userRoute");
 const authRoute = require("./routes/authRoute");
